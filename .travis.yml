@@ -2,6 +2,8 @@ language: c
 compiler: gcc
 os: linux
 dist: bionic
+arch:
+  - ppc64le
 env:
   global:
   # This is an excrypted setting of COVERITY_SCAN_TOKEN=<token>
